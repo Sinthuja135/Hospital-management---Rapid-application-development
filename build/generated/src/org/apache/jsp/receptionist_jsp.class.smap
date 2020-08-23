@@ -1,0 +1,18 @@
+SMAP
+receptionist_jsp.java
+JSP
+*S JSP
+*F
++ 0 receptionist.jsp
+receptionist.jsp
+*L
+1,30:48
+31,23:79
+53,14:102
+67,7:117
+73,14:124
+88,17:140
+104,12:157
+116,22:170
+137,86:192
+*E

@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/Footer.css">
+  <link rel="stylesheet" href="css/header.css">
+  <title>Goshen Health|Login</title>
+<style>
+* {
+  box-sizing: border-box;
+}
+
+.main {
+  float:left;
+  width:60%;
+  
+  
+}
+.right {
+  
+  float:left;
+  width:40%;
+  
+  
+  
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+
+h2{
+	text-align:center;
+}
+.formc{
+	margin-top:100px;
+}
+.loginpage{
+	background-color: #f2f2f2;
+}
+
+fname{
+	font-size:20px;
+}
+
+
+
+
+input[type=text],input[type=password], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+    width: 100%;
+    background-color: #3385ff;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color:#80b3ff;
+	color:black;
+}
+
+form {
+	
+    border-radius: 5px;
+    background-color: transparent;
+    padding: 20px;
+	height:100%;
+}
+
+
+@media only screen and (max-width:620px) {
+  /* For mobile phones: */
+  .main, .right {
+    width:100%;
+  }
+}
+</style>
+</head>
+<body>
+
+
+
+
+<div class="loginpage">
+
+	  <div class="main">
+		<img src="images/adminp.jpg" width="460" height="345">
+	  </div>
+
+	  <div class="right">
+		  <div class="formc">
+			<h2>LOGIN</h2>
+			<form action="login.jsp">
+				<label for="fname">Username</label>
+                                <input type="text" required="required" id="fname" name="input1" placeholder="Username" >
+
+				<label for="lname">Password</label>
+				<input type="password" required="required" id="fname" name="input2" placeholder="Password" >
+
+				<input type="submit" value="LOG IN">
+			</form>
+		  </div>
+	  </div>
+ </div> 
+
+
+
+
+</body>
+</html>

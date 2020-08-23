@@ -1,0 +1,89 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Dec 3, 2018, 10:57:57 PM
+    Author     : Hansana Pushpakumara
+*/
+
+.conbody{
+	
+	
+	
+	background-image: url("header1.jpg");
+
+    /* Full height */
+    height: 100%; 
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h2{
+	text-align:center;
+        color:red;
+}
+
+.conbodydownform{
+	width:60%;
+	margin: auto;
+    background-color:transparent;
+    border: 1px solid gray;
+	border-radius:5px;
+    padding: 30px;
+	
+}
+
+.conbodyup{
+	background-color:#e0ebeb;
+	margin-top:0px;
+}
+
+input[type=submit]{
+    width: 30%;
+    background-color: #3385ff;
+    color: white;
+    padding: 14px 14px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+	text-align:center;
+	float:right;
+}
+
+input[type=text],input[type=email] {
+    width: 100%;
+    padding: 20px;
+    
+}
+h4{
+	text-align:center;
+}
+.conbodydown{
+	margin-bottom: 20px;
+        margin-top: 20px;
+	width:100%;
+}
+.colum {
+  float:left;
+  width:33.33%;
+	text-align:center;
+	margin: auto;
+    background-color:transparent;
+    border: 1px;
+	border-radius:5px;
+    padding: 30px;
+}
+
+
+
+@media only screen and (max-width:620px) {
+  /* For mobile phones: */
+ .colum {
+    width:100%;
+  }
+}

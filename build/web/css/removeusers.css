@@ -1,0 +1,79 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Dec 3, 2018, 12:58:16 AM
+    Author     : Hansana Pushpakumara
+*/
+.removeform{
+    margin: auto;
+    width: 30%;
+    padding: 10px;
+   border: 1px;
+   margin-top: 50px;
+   
+   
+}
+
+.remt{
+    float:left;
+    margin-bottom: 10px;
+}
+
+
+input[type=text] {
+    
+    padding: 8px 20px;
+    margin: 1px 0;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+}
+
+option{
+   
+    padding: 8px 20px;
+    margin: 1px 0;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+}
+
+form{
+    background-size: cover;
+    color:black;
+    font-size:15px;
+    background-position: center;
+    
+}
+
+input[type=submit]{
+    border: 1px;
+    color:white;
+    background-color: blue;
+   padding: 8px 20px;
+}
+
+input[type=submit]:hover{
+   
+   background-color: #ebfafa;
+  color:black;
+}
+
+.removeform{
+
+}
+h1{
+    padding-left: 20px;
+    color:white;
+}
+input[type=submit],input[type=reset]:hover{
+    border: 1px;
+    background-color: blue;
+   padding: 8px 20px;
+}
+
+@media screen and (max-width: 100%) {
+  
+
+}
